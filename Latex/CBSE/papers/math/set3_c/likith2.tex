@@ -1,37 +1,35 @@
-\documentclass[12pt,twocolumn]{article}
+\documentclass[12pt]{article}
 
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
+\usepackage{enumitem}
 
 \setlength{\columnsep}{1cm}
 
 \begin{document}
 
-\setlength{\headheight}{40pt}
-\pagestyle{fancy}
-\fancyhf{} % clear header and footer
-
-\fancyhead[L]{%
-  \includegraphics[height=1.2cm]{logo1.jpg}
-}
-
-\fancyhead[R]{%
-  \begin{tabular}{r}
-    \textbf{Name:} Likith Varma \\
-    \textbf{ID:} COMETFWC048 \\
-    \textbf{Date:} 31-01-26
+\noindent
+\makebox[\textwidth]{%
+  \includegraphics[width=4cm]{logo1.jpg}%
+  \hfill
+  \begin{tabular}{@{}r@{}}
+    \textbf{Name:} Likith Varma\\
+    \textbf{ID:} COMETFWC048\\
+    \textbf{Date:} 28-01-26
   \end{tabular}
 }
 
+\vspace{1cm}
+
 
 \renewcommand{\headrulewidth}{0pt} % remove h>
-
+\setlength{\headheight}{40pt} 
 
 \begin{center}
-\textbf{SECTION - D}
+  \textbf{SECTION - D}
 \end{center}
 
 
@@ -48,9 +46,9 @@ Find the distance of the hill from the ship and the height of the hill.
 Three different coins are tossed together.
 Find the probability of getting
 \begin{enumerate}
-\item exactly two heads
-\item at least two heads
-\item at least two tails
+  \item exactly two heads
+  \item at least two heads
+  \item at least two tails
 \end{enumerate}
 
 \textbf{Question numbers 21 to 31 carry 4 marks each.}
@@ -84,16 +82,17 @@ Find the value of $\dfrac{DO'}{CO}$.
 
 \begin{figure}[h]
 \centering
-  \protect\includegraphics[width=0.78\columnwidth]{figure24.jpg}
+  \includegraphics[width=0.40\columnwidth]{figure24.jpg}
   \caption{}
 \end{figure}
 
 \item
 Solve for $x$:
-\newline
-$\frac{1}{x+1} + \frac{2}{x+2} = \frac{4}{x+4},
-\quad x \neq -1,-2,-4$
-
+\\
+\begin{align*}
+  \frac{1}{x+1} + \frac{2}{x+2} = \frac{4}{x+4},
+  \quad x \neq -1,-2,-4
+\end{align*}
 
 \item
 The angle of elevation of the top $Q$ of a vertical tower $PQ$
@@ -115,17 +114,16 @@ $A(4,6)$, $B(1,5)$ and $C(7,2)$.
 A line segment $DE$ is drawn to intersect the sides $AB$ and $AC$
 at $D$ and $E$ respectively such that:
 
-{\Large
-\hspace{1.8 cm}
-$\frac{AD}{AB} = \frac{AE}{AC} = \frac{1}{3}$
-}
+\begin{align*}
+  \frac{AD}{AB} = \frac{AE}{AC} = \frac{1}{3}
+\end{align*}
 
 Calculate the area of $\triangle ADE$ and compare it with the area
 of $\triangle ABC$.
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.75\columnwidth]{figure28.jpg}
+  \includegraphics[width=0.35\columnwidth]{figure28.jpg}
   \caption{}
 \end{figure}
 
@@ -140,19 +138,19 @@ In the figure, a sector $OAP$ of a circle with centre $O$
 containing angle $\theta$ is shown.
 $AB$ is perpendicular to the radius $OA$ and meets $OP$ produced at $B$.
 Prove that the perimeter of the shaded region is:
-\newline
-{\Large
-\hspace{0.1 cm}
-$r\left(\tan\theta + \sec\theta + \frac{\pi\theta}{180} - 1\right)$
-}
+\\
+
+\begin{align*}
+  r\left(\tan\theta + \sec\theta + \frac{\pi\theta}{180} - 1\right)
+\end{align*}
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.48\columnwidth]{figure30.jpg}
+  \includegraphics[width=0.25\columnwidth]{figure30.jpg}
   \caption{}
 \end{figure}
 
-\newpage
+
 \item
 A motor boat whose speed is 24 km/h in still water
 takes 1 hour more to go 32 km upstream
