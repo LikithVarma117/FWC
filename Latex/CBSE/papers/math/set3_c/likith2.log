@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.27)  2 FEB 2026 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.27)  2 FEB 2026 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -226,15 +226,15 @@ e
 <logo1.jpg, id=1, 988.69376pt x 353.32pt>
 File: logo1.jpg Graphic file (type jpg)
 <use logo1.jpg>
-Package pdftex.def Info: logo1.jpg  used on input line 23.
+Package pdftex.def Info: logo1.jpg  used on input line 19.
 (pdftex.def)             Requested size: 113.81102pt x 40.67137pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -243,14 +243,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figure24.jpg, id=2, 1062.97125pt x 562.1pt>
 File: figure24.jpg Graphic file (type jpg)
 <use figure24.jpg>
-Package pdftex.def Info: figure24.jpg  used on input line 85.
+Package pdftex.def Info: figure24.jpg  used on input line 87.
 (pdftex.def)             Requested size: 155.99762pt x 82.48447pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
@@ -262,14 +262,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--92
 <figure28.jpg, id=13, 1045.9075pt x 753.81625pt>
 File: figure28.jpg Graphic file (type jpg)
 <use figure28.jpg>
-Package pdftex.def Info: figure28.jpg  used on input line 126.
+Package pdftex.def Info: figure28.jpg  used on input line 128.
 (pdftex.def)             Requested size: 136.50238pt x 98.37912pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--142
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
@@ -279,7 +279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--142
 <figure30.jpg, id=18, 1028.84375pt x 1194.4625pt>
 File: figure30.jpg Graphic file (type jpg)
 <use figure30.jpg>
-Package pdftex.def Info: figure30.jpg  used on input line 149.
+Package pdftex.def Info: figure30.jpg  used on input line 151.
 (pdftex.def)             Requested size: 97.5pt x 113.18349pt.
 
 
@@ -291,7 +291,7 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  4264 strings out of 473197
- 67526 string characters out of 5718605
+ 67528 string characters out of 5718605
  473086 words of memory out of 5000000
  27495 multiletter control sequences out of 15000+600000
  563789 words of font info for 55 fonts, out of 8000000 for 9000
@@ -304,7 +304,7 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on likith2.pdf (3 pages, 334858 bytes).
+Output written on likith2.pdf (3 pages, 334852 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
