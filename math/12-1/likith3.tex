@@ -1,0 +1,166 @@
+\documentclass{article}
+\def\inputGnumericTable{}
+
+\usepackage[latin1]{inputenc}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\parskip=6pt
+
+\newcommand{\ddydx}{\ensuremath{\frac{dy}{dx}}}
+
+\begin{document}
+
+\section*{APPLICATION OF DERIVATIVES}
+
+\noindent
+or
+
+\begin{align}
+\frac{dy}{dx}
+&= \frac{\frac{dy}{dt}}{\frac{dx}{dt}} \\
+&= \frac{-3b\cos^2 t \sin t}{3a\sin^2 t \cos t} \\
+&= \frac{-b\cos t}{a\sin t}
+\end{align}
+
+\noindent
+Therefore, slope of the tangent at $t=\frac{\pi}{2}$ is
+
+\begin{align}
+\left.\frac{dy}{dx}\right|_{t=\frac{\pi}{2}}
+&= \frac{-b\cos \frac{\pi}{2}}{a\sin \frac{\pi}{2}} \\
+&= 0
+\end{align}
+
+\noindent
+Also, when $t=\frac{\pi}{2}$, $x=a$ and $y=0$.
+
+\noindent
+Hence, the equation of the tangent at $(a,0)$ is
+
+\begin{align}
+y-0 = 0(x-a)
+\end{align}
+
+\noindent
+i.e., $y=0$.
+
+\section*{EXERCISE 6.3}
+
+\begin{enumerate}
+
+\item Find the slope of the tangent to the curve $y=3x^4-4x$ at $x=4$.
+
+\item Find the slope of the tangent to the curve $y=\frac{x-1}{x-2}$, $x\neq2$ at $x=10$.
+
+\item Find the slope of the tangent to the curve $y=x^3-x+1$ at the point whose $x$-coordinate is $2$.
+
+\item Find the slope of the tangent to the curve $y=x^3-3x+2$ at the point whose $x$-coordinate is $3$.
+
+\item Find the slope of the normal to the curve
+$x=a\cos^3\theta$, $y=a\sin^3\theta$ at $\theta=\frac{\pi}{4}$.
+
+\item Find the slope of the normal to the curve
+$x=1-a\sin\theta$, $y=b\cos^2\theta$ at $\theta=\frac{\pi}{2}$.
+
+\item Find points at which the tangent to the curve
+$y=x^3-3x^2-9x+7$ is parallel to the $x$-axis.
+
+\item Find a point on the curve $y=(x-2)^2$ at which the tangent is parallel to the chord joining $(2,0)$ and $(4,4)$.
+
+\item Find the point on the curve $y=x^3-11x+5$ at which the tangent is $y=x-11$.
+
+\item Find the equation of all lines having slope $-1$ which are tangents to the curve
+$y=\frac{1}{x-1}$, $x\neq1$.
+
+\item Find the equation of all lines having slope $2$ which are tangents to the curve
+$y=\frac{1}{x-3}$, $x\neq3$.
+
+\item Find the equations of all lines having slope $0$ which are tangent to the curve
+$y=\frac{1}{x^2-2x+3}$.
+
+\item Find points on the curve $\frac{x^2}{9}+\frac{y^2}{16}=1$ at which the tangents are
+\begin{enumerate}
+\item parallel to the $x$-axis
+\item parallel to the $y$-axis
+\end{enumerate}
+
+\item Find the equations of the tangent and normal to the given curves at the indicated points:
+\begin{enumerate}
+\item $y=x^4-6x^3+13x^2-10x+5$ at $(0,5)$
+\item $y=x^4-6x^3+13x^2-10x+5$ at $(1,3)$
+\item $y=x^3$ at $(1,1)$
+\item $y=x^2$ at $(0,0)$
+\item $x=\cos t$, $y=\sin t$ at $t=\frac{\pi}{4}$
+\end{enumerate}
+
+\item Find the equation of the tangent line to the curve $y=x^2-2x+7$ which is
+\begin{enumerate}
+\item parallel to $2x-y+9=0$
+\item perpendicular to $5y-15x=13$
+\end{enumerate}
+
+\item Show that the tangents to the curve $y=7x^3+11$ at $x=2$ and $x=-2$ are parallel.
+
+\item Find the points on the curve $y=x^3$ at which the slope of the tangent is equal to the $y$-coordinate of the point.
+
+\item For the curve $y=4x^3-2x^5$, find all the points at which the tangent passes through the origin.
+
+\item Find the points on the curve $x^2+y^2-2x-3=0$ at which the tangents are parallel to the $x$-axis.
+
+\item Find the equation of the normal at the point $(am^2,am^3)$ for the curve $ay^2=x^3$.
+
+\end{enumerate}
+
+\section*{6.5 APPROXIMATIONS}
+
+\noindent
+Let $y=f(x)$. Let $\Delta x$ be a small increment in $x$.
+
+\noindent
+The increment in $y$ is $\Delta y=f(x+\Delta x)-f(x)$.
+
+\noindent
+The differential of $y$ is
+
+\begin{align}
+dy=\frac{dy}{dx}\Delta x
+\end{align}
+
+\section*{EXERCISE 6.4}
+
+\begin{enumerate}
+
+\item Using differentials, find the approximate value of each of the following:
+\begin{enumerate}
+\item $\sqrt{25.3}$
+\item $\sqrt{49.5}$
+\item $\sqrt{0.6}$
+\item $(0.009)^{\frac{1}{3}}$
+\item $(0.999)^{\frac{1}{10}}$
+\item $(15)^{\frac{1}{4}}$
+\item $(26)^{\frac{1}{3}}$
+\item $(255)^{\frac{1}{4}}$
+\item $(82)^{\frac{1}{4}}$
+\item $(401)^{\frac{1}{2}}$
+\item $(0.0037)^{\frac{1}{2}}$
+\item $(26.57)^{\frac{1}{3}}$
+\item $(81.5)^{\frac{1}{4}}$
+\item $(3.968)^{\frac{3}{2}}$
+\item $(32.15)^{\frac{1}{5}}$
+\end{enumerate}
+
+\item Find the approximate value of $f(2.01)$, where $f(x)=4x^2+5x+2$.
+
+\item Find the approximate value of $f(5.001)$, where $f(x)=x^3-7x^2+15$.
+
+\end{enumerate}
+
+\section*{6.6 MAXIMA AND MINIMA}
+
+\noindent
+In this section, we will use derivatives to find the maximum or minimum values of functions.
+
+\end{document}
