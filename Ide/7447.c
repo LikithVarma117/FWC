@@ -37,4 +37,4 @@ delay(1000);
 disp_7447(1,0,0,1);
 delay(1000);
 }
-Convert this to python
+
